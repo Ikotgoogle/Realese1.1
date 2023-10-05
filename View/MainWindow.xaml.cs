@@ -69,7 +69,6 @@ namespace LibraryHome
             {
                 InfoListView.Visibility = Visibility.Visible; // Отображение поля, в котором перечислены названия и количество книг у выбранного пользователя
             }
-
             else
             {
                 InfoListView.Visibility = Visibility.Collapsed;
