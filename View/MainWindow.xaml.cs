@@ -55,10 +55,9 @@ namespace LibraryHome
         public MainWindow()
         {
             InitializeComponent();
-            PeopleListView.ItemsSource = peoples; // Отображение списка читателейй
+            PeopleListView.ItemsSource = peoples; // Отображение списка читателей
             BookListView.ItemsSource = books; // Отображение списка книг
         }
-
 
         private void PeopleListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
